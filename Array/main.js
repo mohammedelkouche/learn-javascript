@@ -36,6 +36,21 @@ const fruits = ['Banana','Apple','Berries','Orange']
 
 // ============  display table ============== //
 
+
+// ============  search ============== //
+
+const countries = ['maroc','madaghachkar','algerie','tunizi']
+
+console.log(countries.find(function (value) {
+    // return value === 'maroc';
+    return value.startsWith('ma')
+}))
+
+// ============  display table ============== //
+
+
+
+
 // ============  modify table ============== //
 
 let numbers = [0,1,2,3,4,5,6]
@@ -79,18 +94,18 @@ let numbers = [0,1,2,3,4,5,6]
 // console.log(fillNumbers)
 
 
-let everyNumbers = [0,1,2,3,4,5,6]
+// let everyNumbers = [0,1,2,3,4,5,6]
 
 
-let sum = everyNumbers.reduce(function(accumulator, value){
-    // accumulator is the resolt of the curent position of the index element array
-    // value : value of etch element in the array
-    return accumulator + value
-}, 0)
+// let sum = everyNumbers.reduce(function(accumulator, value){
+//     // accumulator is the resolt of the curent position of the index element array
+//     // value : value of etch element in the array
+//     return accumulator + value
+// }, 0)
 
 // 0 is the initiale value (0(initila value) + 0(first element in table) )
 
-console.log(sum)
+// console.log(sum)
 
 
 // ============  modify table ============== //
